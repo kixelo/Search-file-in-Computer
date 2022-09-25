@@ -6,9 +6,8 @@ def search_file(term):
   output=[]
   for file in root_dir.rglob("*"):
       if term in file.name:
-        results = file.absolute()
-        output.append(results)
-  content='\n'.join(map(str,output))      
-  return f'We found {len(output)} file(s) containg term {term}: \n{content}'
+        output.append(file.absolute())
+  content='\n'.join(map(str, output))      
+  return f'We found {len(output)} file(s) containing term {term}: \n{content}'
       
 print(search_file(""))
