@@ -1,7 +1,7 @@
 from pathlib import Path
 
 def search_file(term):
-  root_dir=Path('destination')
+  root_dir=Path('.')
   term = input("Enter search term: ")
   output=[]
   for file in root_dir.rglob("*"):
