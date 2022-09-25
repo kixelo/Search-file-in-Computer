@@ -1,5 +1,5 @@
 # Search-file-in-Computer
-This script allows you to search file in computer/ directory .
+This script allows you to search file/ folder in computer/ directory .
 
 ## Online IDE Application that I used for coding part
 ```
